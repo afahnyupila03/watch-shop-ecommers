@@ -1,0 +1,280 @@
+/* General Styling */
+ul li {
+    list-style-type: none;
+}
+a {
+    text-decoration: none;
+}
+.row {
+    display: flex;
+    justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    margin: 0 5%;
+}
+/* Header */
+header {
+    background-color: rgb(243, 243, 243);
+    width: 100;
+}
+.header {
+    margin: 0 2%;
+}
+.logo a{
+    font-size: 1.6rem;
+    color: #050300;
+    margin: 0;
+    margin-right: 8rem;
+    font-weight: bolder;
+    font-family: 'Bebas Neue',
+    cursive;
+}
+nav {
+    padding: 2% 1rem;
+    display: flex;
+    justify-content: space-between;
+}
+nav ul li {
+    font-size: 1.6rem;
+    display: inline-block;
+    margin-left: .5rem;
+    padding-right: 1.5rem;
+}
+nav ul li a {
+    color: black;
+    font-family: 'Bebas Neue',
+    cursive;
+}
+nav ul li a:hover {
+    color: #ff0808;
+    transition: .5s ease-in-out;
+}
+.box-icon {
+    margin-left: 5cm;
+}
+* {
+    padding: 0;
+    margin: 0;
+}
+/* Header and Banner */
+/* Banner */
+.headerContent {
+    background: #cfe3e5;
+}
+.headerForm,
+.headerImage {
+    flex-basis: 50%;
+    margin: .5rem 4rem;
+    padding: 0rem 2rem;
+    margin-right: -10rem;
+}
+
+/* headerImage Bounce */
+.headerImage img {
+    margin: 80px auto 0 auto;
+}
+@keyframes bounce {
+    0% {
+        transform: translateX(100);
+    }
+
+    100% {
+        transform: translateX(-100px);
+    }
+}
+
+.headerImage img {
+    animation: bounce 0.8s;
+    animation-direction: alternate;
+    animation-iteration-count: infinite;
+}
+/* !Image Bounce */
+
+.headerForm form h1 {
+    font-size: 4rem;
+    margin-right: -6rem;
+    font-family: 'Bebas Neue',
+    cursive;
+}
+.headerForm form p {
+    font-size: 1rem;
+    font-family: 'Noto Sans',
+    sans-serif;
+    margin-right: 10rem;
+}
+.headerImage img {
+    margin-left: 10rem;
+    margin-top: -.5rem;
+    margin-bottom: -.7rem;
+}
+.headerForm input[type=submit] {
+    background-color: rgb(82, 73, 73);
+    color: white;
+    margin-top: 2rem;
+    width: 8rem;
+    height: 3rem;
+    border-radius: .2rem;
+    border-style: none;
+    font-size: 1.2rem;
+    font-family: 'Bebas Neue',
+    cursive;
+}
+/* New Arrivals */
+.arrivallLeft {
+    flex-basis: 50%;
+}
+.arrivallLeft .cardHead img:hover {
+    zoom: 1.2;
+}
+.cardText {
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size: 3rem;
+}
+.arrivallLeft .cardBody {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+.arrivallLeft a {
+    color: #1f3335;
+}
+/* Random Images */
+.random {
+    margin: 10% 0;
+    flex-basis: 30%;
+}
+.img_1 {
+    width: 35rem;
+    margin-right: 1.5rem;
+}
+.img_2 {
+    width: 30rem;
+    margin-right: 1.5rem;
+    height: 46.5rem;
+}
+.img_3 {
+    height: 20rem;
+    width: 27.9rem;
+    height: 23rem;
+    margin-top: 0rem;
+    margin-bottom: 1.5rem;
+}
+.img_4 {
+    height: 22rem;
+    width: 27.9rem;
+    margin-top: -.5rem;
+}
+
+/* Popular Items */
+.popular {
+    flex-basis: 30%;
+}
+.popularText h1 {
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size: 3rem;
+}
+.popularText p {
+    font-family: 'Noto Sans',
+    sans-serif;
+}
+.popularLeft .cardBody {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+.popularLeft .cardBody button a {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+/* More Products Button */
+.more-products button a{
+    font-family: 'Bebas Neue',
+    cursive;
+}
+
+/* Watch of Choice */
+.watchText, .watchImg {
+    flex-basis: 50%;
+    margin: 4rem 5rem;
+    padding: 0rem 2rem;
+}
+.watchText h1 {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+.watchText p {
+    font-family: 'Noto Sans',
+    sans-serif;
+    margin-right: -6rem;
+}
+.watchTop button a,
+.watchBottom button a {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+/* shipping Styles */
+.shippingSecureRefund {
+    margin: 4cm 3cm;
+    padding: 1cm;
+    background-color: red;
+}
+.shipping, .securePayment, .moneyRefund {
+    margin: 0;
+    margin-left: 2cm;
+}
+.shipping h3,
+.securePayment h3,
+.moneyRefund h3 {
+    font-family: 'Roboto Condensed',
+    sans-serif;
+}
+.shippingText p,
+.secureText p,
+.refundText p {
+    font-family: 'Bebas Neue',
+    cursive;
+    font-size: 1rem;
+}
+/* Footer Styling */
+footer {
+    margin: 4rem 5rem;
+}
+.time-zone,
+.quick-links,
+.new-products,
+.support {
+    flex-basis: 25%;
+    margin: 04rem 1rem;
+}
+.time-zone {
+    margin-top: -1rem;
+}
+.time-zone h1,
+.quick-links h1,
+.new-products h1,
+.support h1 {
+    font-family: 'Bebas Neue',
+    cursive;
+}
+.time-zone p {
+    font-family: 'Roboto',
+        sans-serif;
+    font-size: 1.2rem;
+    color: #d1cfca;
+}
+.time-zone ul li a,
+.quick-links ul li a,
+.new-products ul li a,
+.support ul li a {
+    font-size: 1.2rem;
+    color: #d1cfca;
+    font-family: 'Roboto',
+    sans-serif;
+}
+.text p {
+    color: #d1cfca;
+    font-size: 100%;
+    margin: 2rem 0rem;
+    font-family: 'Pacifico',
+    cursive;
+}
